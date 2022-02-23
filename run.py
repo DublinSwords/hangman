@@ -7,4 +7,16 @@ words = ['python', 'program']
 
 picked = random.choice(words)
 
-print(picked)
+right = []
+wrong = []
+
+while True:
+
+    guess = input("Guess a letter")
+
+    if guess in picked:
+        right.append(guess)
+        print("Right:" right)
+    else:
+        wrong.append(guess)
+        print("Wrong:" wrong)
