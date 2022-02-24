@@ -2,7 +2,7 @@
 # You can delete these comments, but do not change the name of this file
 # Write your code to expect a terminal of 80 characters wide and 24 rows high
 import random 
-
+from hangman_parts import parts
 # words picked for guess
 words = ['python', 'program']
 
@@ -19,6 +19,7 @@ def update():
         print(i, end = ' ')
     print()
 update()
+parts(len(wrong))
 
 
 # While loop with if statment 
@@ -38,9 +39,14 @@ while True:
     else:
         if guess not in wrong:
             wrong.append(guess)
+            parts(len(wrong))
         else:
             print("You already guessed that")
         print(wrong) 
+    if len(wrong) > 3:
+        print("You lose")
+        print('I picked', picked)
+        break
     if '_' not in right:
         print("You win!:)")
         break
