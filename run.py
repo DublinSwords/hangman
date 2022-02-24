@@ -34,6 +34,13 @@ while True:
             if i == guess:
                 right[index] = guess
             index +=1
+        update()
     else:
-        wrong.append(guess)
-        print("Wrong:" ,wrong)
+        if guess not in wrong:
+            wrong.append(guess)
+        else:
+            print("You already guessed that")
+        print(wrong) 
+    if '_' not in right:
+        print("You win!:)")
+        break
