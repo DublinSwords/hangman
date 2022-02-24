@@ -2,25 +2,33 @@
 # You can delete these comments, but do not change the name of this file
 # Write your code to expect a terminal of 80 characters wide and 24 rows high
 import random 
+
+# another file from where I am importing parts
 from hangman_parts import parts
+
+# importing sleep so our program can delay for .5 seconds
 from time import sleep
-# words picked for guess
+
+# list of words from waht i can cchouse
 words = ['python', 'program']
 
 picked = random.choice(words)
+
+#print the message and number of letters
 print("The word has", len(picked), "letter")
 
 # right empty list and wrong empty list
 right = ['_'] * len(picked)
 wrong = []
 
-# Function will update my right list
+# Function will update my right list with underscor 
 def update():
     for i in right:
         print(i, end = ' ')
     print()
 print('Let me think of a word')
 
+# Function will delay our program for .5seconds 
 def wait():
     for i in range(5):
         print('.', end = ' ')
@@ -35,8 +43,8 @@ parts(len(wrong))
 
 # While loop with if statment 
 while True:
-    """ In case If user will guess a letter on the screen wil appear Right message 
-    in case if user will guess wrong letter on the screen will appear wrong message"""
+    """ In case If user will guess a letter on the screen will not appear a hangman
+    in case if user will guess wrong letter on the screen will appear parts of hangman"""
     print("======================")
     guess = input("Guess a letter:")
     print('Let me check')
