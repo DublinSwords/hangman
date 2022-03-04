@@ -14,7 +14,7 @@ words = ['python', 'program']
 
 picked = random.choice(words)
 
-#print the message and number of letters
+# Print the message and number of letters
 print("The word has", len(picked), "letter")
 
 # right empty list and wrong empty list
