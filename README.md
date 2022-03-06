@@ -58,4 +58,34 @@ The network receives as input a representation of the word (total number of char
 
 # Testing
 I have manually tested this project by doing the following: 
- * 
+ * Passed the code through a PEP8 linter and confirmed there are no problems
+ * Tested in my local terminal and the Heroku terminal
+
+# Bugs
+
+### Solved bugs
+
+ * When I wrote my project I was getting error in len wrong answers as I gived 4 instead of 3. 
+
+# Remaining Bugs
+
+* No bugs remaining
+
+# Validator Testing
+
+* PEP8
+  - No errors were returned from PEP8online.com
+
+# Deployment 
+ * Steps for deployment
+  - Fork or clone this repository
+  - Create a new Heroku app
+  - Set the buildbacks to Python and NodeJS in that order
+  - Set the Config Var key: PORT and value: 8000 as instructed
+  - Link the Heroku app to the repository
+  - Click on Deploy
+
+# Credits
+* Tech with Mike adopted code from his youtube chanel
+* Love sandvich project from Code Institute
+* Readme file Ultimate Batleship example from Code Institute
