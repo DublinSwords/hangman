@@ -77,7 +77,7 @@ I have manually tested this project by doing the following:
   - No errors were returned from PEP8online.com
 
 # Deployment 
- * Steps for deployment
+* Steps for deployment
   - Fork or clone this repository
   - Create a new Heroku app
   - Set the buildbacks to Python and NodeJS in that order
