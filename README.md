@@ -86,6 +86,6 @@ I have manually tested this project by doing the following:
   - Click on Deploy
 
 # Credits
-* Tech with Mike adopted code from his youtube chanel
+* Tech with Mike adopted code from his youtube channel
 * Love sandvich project from Code Institute
 * Readme file Ultimate Batleship example from Code Institute
