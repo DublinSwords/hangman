@@ -86,6 +86,6 @@ I have manually tested this project by doing the following:
   - Click on Deploy
 
 # Credits
-* Tech with Mike adopted code from his youtube channel
-* Love sandvich project from Code Institute
+* Tech with Mike adopted code from his youtube channel [Python Hangman Part 1](https://youtu.be/Ff--def_1q0). [Python Hangman Part 2 ](https://youtu.be/7sVnul-StrU)
+* Love-sandwiches project from Code Institute
 * Readme file Ultimate Batleship example from Code Institute
